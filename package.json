@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/Ivanov-DM/weather-forecast/issues"
   },
-  "homepage": "https://github.com/Ivanov-DM/weather-forecast#readme"
+  "homepage": "https://github.com/Ivanov-DM/weather-forecast#readme",
+  "devDependencies": {
+    "@types/jest": "^27.0.1",
+    "jest": "^27.0.6"
+  }
 }
